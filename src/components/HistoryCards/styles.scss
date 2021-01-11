@@ -1,0 +1,22 @@
+.history {
+  position: absolute;
+  right: -50%;
+  top: 0;
+
+  &__title {
+    margin-top: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  &__container {
+    max-height: 380px;
+    overflow: scroll;
+
+    & > div:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+

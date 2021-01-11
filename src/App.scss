@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  height: 100vh;
+
+
+  &__board {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+
+    position: relative;
+  }
+
+  &__picker {
+    display: flex;
+
+    margin-bottom: 20px;
+
+    & > div:first-child {
+      margin-right: 22px;
+    }
+  }
+
+  &__loader {
+    margin: 0;
+    height: 38px;
+    width: 187px;
+  }
+
+}
+

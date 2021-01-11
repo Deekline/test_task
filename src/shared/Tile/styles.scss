@@ -1,0 +1,21 @@
+.tile {
+  display: block;
+
+  width: 50%;
+
+  border: 1px solid black;
+
+  &:after {
+    content: '';
+
+    display: block;
+
+    padding-top: 100%;
+  }
+
+  &:hover {
+    background: #0075d8;
+
+    transition: 0.3s;
+  }
+}
