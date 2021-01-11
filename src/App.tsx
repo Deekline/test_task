@@ -15,6 +15,7 @@ const App = () => {
 
   const setFieldSize = useCallback(() => {
     const ref = pickerRef.current;
+    setTriggeredHistory([]);
     // @ts-ignore
     setState(ref?.state.value?.value);
   }, [pickerRef?.current]);
